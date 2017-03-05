@@ -1,0 +1,86 @@
+body {
+  font-size: 18px;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #5a5050;
+  color: #e5eec1; }
+
+main {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  main #rule {
+    height: 100vh;
+    margin: 0;
+    width: 50%;
+    font-size: 6.4em;
+    padding-left: 90px;
+    padding-top: 25px; }
+    @media screen and (min-width: 1400px) {
+      main #rule {
+        font-size: 11rem; } }
+  main #code {
+    font-size: 2rem;
+    position: absolute;
+    bottom: calc(100vh - 90%);
+    right: 14%;
+    width: 20%;
+    border: 30px solid #3eacab;
+    height: 15rem; }
+    @media screen and (min-width: 1400px) {
+      main #code {
+        height: 22rem; } }
+    main #code .value {
+      width: 25rem;
+      height: 12rem;
+      background-color: #5a5050;
+      font-family: 'Montserrat Alternates', sans-serif;
+      color: #e84a5f;
+      position: absolute;
+      top: 1.5rem;
+      left: 6.5rem;
+      z-index: 1;
+      font-size: 12rem;
+      line-height: 12rem; }
+      @media screen and (min-width: 1400px) {
+        main #code .value {
+          height: 18rem;
+          top: 2rem;
+          font-size: 18rem;
+          line-height: 18rem; } }
+  main #char {
+    font-size: 1.7rem;
+    padding-top: 42px;
+    text-align: right;
+    position: absolute;
+    right: 14.1%; }
+    @media screen and (min-width: 1400px) {
+      main #char {
+        right: 14.8%;
+        font-size: 2rem; } }
+    main #char span {
+      color: #ef4566;
+      font-size: 1.5rem; }
+      @media screen and (min-width: 1400px) {
+        main #char span {
+          font-size: 1.8rem; } }
+
+a {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #837474;
+  font-size: calc(1rem - 2px);
+  text-decoration: none; }
+  a:hover {
+    color: #ef4566; }
+    a:hover svg {
+      fill: #ef4566; }
+  a svg {
+    fill: #837474;
+    margin-right: 5px;
+    margin-bottom: -6px; }
