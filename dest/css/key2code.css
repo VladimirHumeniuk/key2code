@@ -7,7 +7,7 @@ body {
   color: #e5eec1; }
   @media screen and (max-width: 900px) {
     body:before {
-      content: 'Nope, its not work on mobile. Bye.';
+      content: 'Nope, it does not work on mobile. Bye.';
       font-family: 'Montserrat', sans-serif;
       position: fixed;
       left: 0;
